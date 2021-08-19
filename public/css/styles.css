@@ -92,15 +92,52 @@ main {
     margin-top: 0;
     box-sizing: border-box;
     border-top: 1px solid #d2b8b8;
+    display: flex;
+    justify-content: flex-start;
+   
 }
+
+
 
  .product {
     box-shadow: 0px 0px 5px rgb(100 100 100);
-
     padding: 5px;
     background-color: white;
     margin: 0 8px 16px;
     width: 320px;
+    position: relative;
+}
+.product h3 {
+    font-size: 15px;
+    margin:0;
+}
+
+
+.precio {
+    
+    font-size: 20px;
+    margin: 4px;
+}
+.desc {
+    color:green;
+    margin-left:5px;
+    margin: 8px;
+}
+.nombreProducto {
+    margin-left: 8px;
+}
+
+.truck-icon{
+    color:#39b54a;
+    display: flex;
+    position: absolute;
+    right: 20px;
+    bottom: 95px;
+    border: 1px solid #39b54a;
+    border-radius: 50%;
+    padding:2%;
+    position: absolute;
+    background-color: white;
 }
 
 footer {
@@ -108,10 +145,7 @@ footer {
     padding: 20px;
 }
 
-.footer-container {
-    
-    
-}
+
 .footer-content {
       
     flex: 0 30%;
@@ -133,7 +167,15 @@ h1 {
 }
 
 
+/*@media (max-width:360px){
+    .nombreProducto {
+        display: none;
+    }
+}*/
 
+.nombreProducto {
+    display: none;
+}
 
 
 
@@ -171,6 +213,9 @@ h1 {
         flex-wrap: wrap;
         justify-content: center;
         
+    }
+    .nombreProducto {
+        display: block;
     }
   
   
@@ -210,4 +255,7 @@ h1 {
     .main-navbar a{
         font-size: 16px;
     }
+    
 }
+
+

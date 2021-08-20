@@ -53,8 +53,90 @@
 
 
 
+.formulario .registro-form {
+    width:100%;
+    
+    text-align: center;
+    
+}
+
+.registro-form div{
+    margin: 20px 0px;
+}
 
 
+.registro-form .categorias {
+    display: block;
+    width: 100%;
+}
+.registro-form .datospersonales input{
+    width: 300px;
+}
+
+.registro-form .compravende input {
+    width: 40px;
+}
+
+.registro-form .label {
+    text-align: center;
+}
+.registro-form .label .labelform{
+    text-align: center;
+    margin-right: 200px;
+}
+.registro-form .label .compravende {
+    margin-right: 110px;
+}
+
+.registro-form .intereses {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: start;
+}
+.formulario .registro-form .button-register a{
+    text-decoration: none;
+    color :black;
+}
+.registro-form .labelinteres label {
+    margin-right: 250px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.formulario-login .login-form {
+    text-align: center;
+    
+    width: 100%;
+}
+.formulario-login .login-form div input {
+    margin: 35px 0;
+    padding:7px;
+    width: 70%;
+}
+
+.formulario-login .login-form .button-enviar  button{
+    width:  70%;
+    padding: 7px;
+    margin-bottom: 29px;
+    background-color: rgba(38, 38, 168, 0.815);
+    margin-top: 29px;
+    color:white;
+}
+
+.formulario-login .login-form .button-enviar  button a{
+    color: white;
+    text-decoration: none;
+}
 
 body {
     background: #e2e1db;
@@ -165,6 +247,14 @@ font-size:25px;
 h1 {
     text-align: center;
 }
+
+
+
+
+
+
+
+
 
 
 /*@media (max-width:360px){

@@ -237,6 +237,10 @@ main {
 
 }
 
+.truck-icon:hover{
+    transform: rotate(270deg);
+}
+
 footer {
     background-color: white;
     padding: 20px;

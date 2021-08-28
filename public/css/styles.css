@@ -183,11 +183,6 @@ body {
     font-family:'Roboto', sans-serif;
 }
 
-footer {
-    text-align: center;
-    position: relative;
-    bottom: -236px;
-}
 
 main {   
     margin: auto;
@@ -293,6 +288,7 @@ main {
 footer {
     background-color: white;
     padding: 20px;
+    text-align: center;
 }
 
 

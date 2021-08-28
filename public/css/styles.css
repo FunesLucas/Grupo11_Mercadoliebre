@@ -134,6 +134,10 @@
 .exam{
     text-align: center;
 }
+.passs{
+    width: 100%;
+    max-width: 200px;
+}
 .formulario .registro-form .button-register a{
     text-decoration: none;
     color :black;

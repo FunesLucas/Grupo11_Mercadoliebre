@@ -21,6 +21,20 @@
     width: 100%;
 
 }
+.search {
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+    display: none;
+}
+.search .search-input {
+    padding: 10px;
+    
+    width: 70%;
+}
+.fas.fa-search{
+    position: relative;
+}
 
 .copy-header {
     font-weight: 400;
@@ -109,17 +123,18 @@
 }
 .registro-form .label .labelform{
     text-align: center;
-    margin-right: 200px;
+    
 }
 .registro-form .label .compravende {
     margin-right: 110px;
 }
 
 .registro-form .intereses {
-    width: 300px;
+    
     margin-left: auto;
     margin-right: auto;
     text-align: start;
+    padding-left: 20px;
 }
 .file{
     width: 100%;
@@ -142,10 +157,7 @@
     text-decoration: none;
     color :black;
 }
-.registro-form .labelinteres label {
-    margin-right: 250px;
-    
-}
+
 
 
 
@@ -359,10 +371,13 @@ h1 {
 
     
     .footer-container {
-        display: flex;
-        flex-wrap: wrap;
+        
         justify-content: center;
         
+    }
+    .registro-form .intereses{
+        width: 300px;
+        padding-left: 0;
     }
     
   
@@ -419,6 +434,17 @@ h1 {
 
     .main-navbar a{
         font-size: 16px;
+    }
+    .search {
+        display: block;
+    }
+    .search-icon.fas.fa-search{
+        position: relative;
+        right: 30px;
+    }
+    .footer-container{
+        display: flex;
+        flex-wrap: wrap;
     }
     
 }
